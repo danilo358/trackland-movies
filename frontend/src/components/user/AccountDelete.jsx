@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { deleteMe } from '../../services/userService.js';
-import { useAuth } from '../../context/Authcontext.jsx';
+import { useAuth } from '../../context/AuthContext.jsx';
 import { useNavigate } from 'react-router-dom';
 
 export default function AccountDelete() {

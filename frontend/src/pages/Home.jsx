@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../context/Authcontext.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 
 export default function Home() {
   const { isAuth } = useAuth();

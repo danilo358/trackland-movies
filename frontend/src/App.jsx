@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/layout/Navbar.jsx';
 import ProtectedRoute from './components/layout/ProtectedRoute.jsx';
-import { AuthProvider } from './context/Authcontext.jsx';
+import { AuthProvider } from './context/AuthContext.jsx';
 
 import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
